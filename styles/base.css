@@ -170,13 +170,10 @@ ul {
     
 }
 
-.acontent {
-    
-}
-
 
 footer {
     grid-row: 3 / 4;
+    text-align: center;
     background: linear-gradient(var(--dark-pink-color), var(--medium-pink-color));
 }
 
