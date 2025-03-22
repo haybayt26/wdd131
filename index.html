@@ -2,34 +2,87 @@
 <html lang="en-US">
 <head>
     <link rel="stylesheet" href="styles/base.css">
+    <script defer src="scripts/getdates.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Homepage for WDD Haley Light">
+    <meta name="description" content="WDD131 - Dynamic Web Fundamentals Homepage for Haley Light">
     <meta name="author" content="Haley Light">
-    <title>Haley Light - WDD131</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>WDD131 - Dynamic Web Fundamentals - Haley Light</title>
 </head>
 <body>
     <header>
-        <div class="header">Header Content</div>
+        
+        <div class="header">
+            <h2>WDD131 - Dynamic Web Fundamentals - Haley Light</h2>
+        </div>
         <div class="menu">
             <nav>
-                <a href="#" title="Home">Home</a>
-                <a href="#" title="Projects">Projects</a>
-                <a href="#" title="Services">Services</a>
-                <a href="#" title="Contact">Contact Us</a>
+                <a href="https://www.linkedin.com/in/haley-light/" title="LinkedIn">LinkedIn</a>
+                <a href="https://byupw.instructure.com/" title="Canvas">Canvas</a>
+                <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/4?lang=eng&id=p14-p35#p14" title="Scripture">Scripture</a>
+                <a href="#" title="Final Project">Final Project</a>
             </nav>
         </div>
     </header>
     <main>
-        <div>Main Content</div>
-        
+
+        <section id="family">
+            <img src="images/family.jpg" alt="Family Picture">
+        </section>
+
+        <section class="card mcon">
+            <h1>A Little About Me</h1>
+            <div class="mcontent">
+                <ul>
+                    <h3>My name is Haley Light</h3>
+                    <li>I am currently studying Software Development with BYU Pathways</li>
+                    <li>I am from Utah but am currently living in Hawaii until I leave for FSY in May.</li>
+                    <li>I have an amazing family with the cutest deaf dog named Scout</li>
+                    <li>Some of my hobbies include singing, watching movies, and playing games with my siblings.
+                    <li>I am a member of the Church of Jesus Christ of Latter-day Saints and love to serve others.
+                    <li>I am excited to learn more about web development and how to create amazing websites.
+                    </li>
+                </ul>
+                <div class="mconimg">
+                    <img id=profile src="images/profile.jpg" alt="Profile Image">
+                    <img id=scout src="images/scout.jpg" alt="Dog Scout">
+                </div>
+            </div>
+        </section>
+
+        <section class="card acon">
+            <h1>Favorite Movies</h1>
+            <ul class="acontent">
+                <li>While You Were Sleeping</li>
+                <li>Lego Batman</li>
+                <li>Crazy Rich Aisans</li>
+                <li>Monsters University</li>
+                <li>Megamind</li>
+                <li>Pride and Prejudice</li>
+                <li>Star Trek</li>
+                <li>Enders Game</li>
+                <li>Hairspray</li>
+                <li>Twisters</li>
+                <li>Tenet</li>
+                <li>Howl's Moving Castle</li>
+                <li>Look Both Ways</li>
+                <li>Midway</li>
+            </ul>
+            
+        </section>
+
     </main>
-    <aside>
-        <div>Aside Content</div>
-    </aside>
     <footer>
-        <p>Footer Content</p>
-        <p>©2025 Haley Light</p>
+        <p>©
+            <span id="currentYear"></span>
+            - Haley Light - Hawaii, USA
+        </p>
+        
+        <p id="lastModified"></p>
+        </p>
     </footer>
 </body>
 </html>
