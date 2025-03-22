@@ -47,7 +47,7 @@ header {
 }
 
 .header {
-    background: linear-gradient(var(--medium-pink-color), var(--dark-pink-color));
+    background: linear-gradient(var(--light-pink-color), var(--medium-pink-color));
     grid-row: 1 / 2;
     text-align: center;
     letter-spacing: 2px;
@@ -57,7 +57,7 @@ header {
 
 
 .menu {
-    background-color: var(--dark-pink-color);
+    background-color: var(--medium-pink-color);
     grid-row: 2 / 3;
 }
 
@@ -179,7 +179,7 @@ ul {
 footer {
     grid-row: 3 / 4;
     text-align: center;
-    background: linear-gradient(var(--dark-pink-color), var(--medium-pink-color));
+    background: linear-gradient(var(--medium-pink-color), var(--light-pink-color));
 }
 
 
